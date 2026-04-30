@@ -13,7 +13,7 @@ Public GitHub Pages package for `NinjaTom: Rooftop Rush`.
 2. Copy or push `/tmp/rooftoprush-site` into the public `rooftoprush-site` repo.
 3. Enable GitHub Pages with GitHub Actions as the source.
 
-## Intended URLs
+## Live URLs
 
 - Marketing URL: `https://ninjatomonline.github.io/rooftoprush-site/`
 - Support URL: `https://ninjatomonline.github.io/rooftoprush-site/support.html`
