@@ -1,0 +1,16 @@
+{
+  "name": "Rooftop Rush",
+  "tagline": "A fast arcade project site with skyline energy.",
+  "category": "Game",
+  "status": "Live",
+  "website": "https://ninjatomonline.github.io/rooftoprush-site/",
+  "supportUrl": "",
+  "privacyUrl": "",
+  "appStoreUrl": "",
+  "icon": "https://raw.githubusercontent.com/NinjaTomOnline/rooftoprush-site/main/assets/rooftoprush-icon.svg",
+  "previewImage": "https://raw.githubusercontent.com/NinjaTomOnline/rooftoprush-site/main/screenshots/01-onboarding-ready.jpg",
+  "previewImageAlt": "Rooftop Rush project preview",
+  "accent": "#42D9FF",
+  "featured": false,
+  "sortOrder": 110
+}
