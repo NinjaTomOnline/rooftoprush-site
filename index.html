@@ -4,55 +4,230 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NinjaTom: Rooftop Rush</title>
-  <meta name="description" content="A stylish rooftop runner where NinjaTom fights bad fashion with good style.">
-  <link rel="stylesheet" href="site.css">
+  <meta name="description" content="A stylish iPhone rooftop runner where NinjaTom fights bad fashion with good style.">
+  <meta name="theme-color" content="#090a0f">
+  <link rel="canonical" href="https://ninjatomonline.github.io/rooftoprush-site/">
+  <meta property="og:title" content="NinjaTom: Rooftop Rush">
+  <meta property="og:description" content="Throw the fit, restock the style, chase counterfeit evidence, and rescue Memphis.">
+  <meta property="og:image" content="screenshots/03-wardrobe-restored.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css?v=20260501-runway">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html">NinjaTom: Rooftop Rush</a>
+    <a class="brand" href="index.html" aria-label="NinjaTom: Rooftop Rush home">
+      <span class="brand-mark">NT</span>
+      <span>NinjaTom: Rooftop Rush</span>
+    </a>
     <nav aria-label="Site">
+      <a href="#screenshots">Screens</a>
+      <a href="#press-kit">Press</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
       <div class="hero-copy">
-        <p class="eyebrow">Stylish rooftop runner</p>
-        <h1>Fight bad fashion with good style.</h1>
-        <p>NinjaTom sprints through a counterfeit warehouse skyline, throws pieces of the fit as style-powered ammo, restores the look with shopping bags, and keeps Memphis out of trouble.</p>
-        <div class="cta-row">
-          <a class="button" href="#screenshots">View Screenshots</a>
-          <a class="button ghost" href="support.html">Get Support</a>
+        <h1 id="hero-title"><span>NinjaTom:</span><span>Rooftop Rush</span></h1>
+        <p class="hero-tagline">Fighting bad fashion with good style.</p>
+        <p class="hero-lede">Bad fashion is organized crime. NinjaTom turns the fit into ammo, raids the counterfeit warehouse skyline, and keeps Memphis in sight.</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button" href="#screenshots">See The Run</a>
+          <a class="button secondary" href="press-kit.zip" download>Download Press Kit</a>
+          <a class="button secondary" href="support.html">Get Support</a>
         </div>
       </div>
-      <img class="hero-shot" src="screenshots/03-wardrobe-restored.jpg" alt="NinjaTom restored in full style during a warehouse run.">
+      <div class="hero-proof" aria-label="Gameplay highlights">
+        <span>3 Style Charges</span>
+        <span>Fedora-To-Coat Ammo</span>
+        <span>Warehouse Evidence Chase</span>
+      </div>
     </section>
 
-    <section class="features" aria-label="Game features">
+    <section class="runway-marquee" aria-label="NinjaTom style line">
+      <span>Fedora</span>
+      <span>Shades</span>
+      <span>Red Tie</span>
+      <span>Coat Toss</span>
+      <span>Shopping Bag Restock</span>
+      <span>Counterfeit Evidence</span>
+    </section>
+
+    <section class="fashion-manifesto" aria-labelledby="manifesto-title">
+      <p class="manifesto-label">The campaign idea</p>
+      <h2 id="manifesto-title">Style is not cosmetic. Style is the weapon.</h2>
+      <p>Every charge spent should feel like NinjaTom sacrificed a piece of the look to stop worse fashion from spreading. Every shopping bag should feel like the fit snapping back into place.</p>
+    </section>
+
+    <section class="style-strip" aria-label="Core game loop">
       <article>
-        <h2>Wardrobe-powered throws</h2>
-        <p>Spend style charges by throwing the fit, then restock with shopping bags before the look slips too far.</p>
+        <span class="number">01</span>
+        <h2>Throw the fit</h2>
+        <p>Spend Style Charges by hurling the fedora, shades, tie, coat, and other pieces of NinjaTom's look at bad-fashion threats.</p>
       </article>
       <article>
-        <h2>Rooftop tools</h2>
-        <p>Jump, air-jump, Hook, and Jet through a warehouse skyline built for fast recovery and readable routes.</p>
+        <span class="number">02</span>
+        <h2>Restock the swagger</h2>
+        <p>Shopping bags reload the wardrobe and keep the character silhouette readable while the run keeps moving.</p>
       </article>
       <article>
-        <h2>Counterfeit evidence</h2>
-        <p>Collect evidence, dodge drones and henchmen, and keep the rescue-Memphis story moving run by run.</p>
+        <span class="number">03</span>
+        <h2>Expose the empire</h2>
+        <p>Evidence pickups push chapters forward through counterfeit warehouses, elite henchmen, and the rescue-Memphis chase.</p>
       </article>
     </section>
 
-    <section id="screenshots" class="gallery" aria-label="Screenshots">
-      <h2>Screenshots</h2>
+    <section class="arsenal" aria-labelledby="arsenal-title">
+      <div class="section-copy">
+        <h2 id="arsenal-title">The wardrobe is the arsenal.</h2>
+        <p>Readable at phone scale, absurd in the right way, and tied directly to the Style Charges mechanic.</p>
+      </div>
+      <div class="arsenal-grid">
+        <article>
+          <span>01</span>
+          <h3>Fedora</h3>
+          <p>The opening statement. Sharp brim, sharper throw.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Sunglasses</h3>
+          <p>Cool leaves the face and becomes a projectile.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Red Tie</h3>
+          <p>A clean line of style fired straight at bad taste.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Coat</h3>
+          <p>The silhouette changes, the mission keeps moving.</p>
+        </article>
+        <article>
+          <span>05</span>
+          <h3>Shopping Bag</h3>
+          <p>The wardrobe reload that turns panic back into swagger.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="showcase" aria-labelledby="showcase-title">
+      <div class="section-copy">
+        <h2 id="showcase-title">A runner with a punchline and a spine.</h2>
+        <p>Rooftop Rush keeps the action readable, but the world has attitude: luxury knockoffs, bad-taste bosses, a loyal dog in danger, and a hero whose best weapon is refusing to dress badly.</p>
+      </div>
+      <div class="showcase-grid">
+        <figure class="wide">
+          <img src="screenshots/02-warehouse-evidence.jpg" alt="NinjaTom collecting counterfeit evidence across warehouse traversal platforms.">
+          <figcaption>Counterfeit production lanes turn rooftops into factory-top traversal.</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/03-wardrobe-restored.jpg" alt="Style restored after a shopping bag pickup.">
+          <figcaption>Shopping bags bring the fit back.</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/05-elite-encounter.jpg" alt="Elite warehouse henchman encounter.">
+          <figcaption>Enemies read as tacky, loud, and dangerous.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="screenshots" class="gallery" aria-labelledby="screenshots-title">
+      <div class="section-copy">
+        <h2 id="screenshots-title">Current build screenshots</h2>
+        <p>These are lightweight captures from the active submission candidate, showing onboarding, warehouse evidence, wardrobe restock, Hook movement, elite pressure, and retry flow.</p>
+      </div>
       <div class="gallery-grid">
-        <img src="screenshots/01-onboarding-ready.jpg" alt="Opening tutorial screen for Rooftop Rush.">
-        <img src="screenshots/02-warehouse-evidence.jpg" alt="NinjaTom collecting counterfeit evidence in the warehouse slice.">
-        <img src="screenshots/04-hook-vault.jpg" alt="Hook traversal across a rooftop gap.">
-        <img src="screenshots/05-elite-encounter.jpg" alt="Elite foreman encounter on the warehouse rooftops.">
-        <img src="screenshots/06-game-over.jpg" alt="Game-over and quick retry loop.">
+        <figure>
+          <img src="screenshots/01-onboarding-ready.jpg" alt="Opening tutorial screen for Rooftop Rush.">
+          <figcaption>Ready state</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/02-warehouse-evidence.jpg" alt="NinjaTom collecting counterfeit evidence in the warehouse slice.">
+          <figcaption>Evidence chase</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/04-hook-vault.jpg" alt="Hook traversal across a rooftop gap.">
+          <figcaption>Hook vault</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/05-elite-encounter.jpg" alt="Elite foreman encounter on the warehouse rooftops.">
+          <figcaption>Elite encounter</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/06-game-over.jpg" alt="Game-over and quick retry loop.">
+          <figcaption>Fast retry</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="app-store-panel" aria-labelledby="app-store-title">
+      <div>
+        <h2 id="app-store-title">App Store slot is ready.</h2>
+        <p>The final public App Store product page is not live yet. When App Store Connect provides the real `apps.apple.com` URL, this slot is ready for the official badge and direct download CTA.</p>
+      </div>
+      <div class="store-card" aria-label="Pending App Store call to action">
+        <span class="store-card-label">Coming to</span>
+        <strong>App Store</strong>
+        <span>Final product link pending</span>
+      </div>
+    </section>
+
+    <section id="press-kit" class="press-kit" aria-labelledby="press-title">
+      <div class="section-copy">
+        <h2 id="press-title">Press kit</h2>
+        <p>NinjaTom: Rooftop Rush is an iPhone action runner where a rooftop vigilante fights counterfeit-fashion crime by weaponizing his own good style.</p>
+      </div>
+      <div class="press-grid">
+        <article class="press-card">
+          <h3>One-sentence pitch</h3>
+          <p>NinjaTom throws the fit, restocks the style, chases counterfeit evidence, and races to save Memphis from a bad-fashion empire.</p>
+        </article>
+        <article class="press-card">
+          <h3>Fact sheet</h3>
+          <dl>
+            <div>
+              <dt>Platform</dt>
+              <dd>iPhone</dd>
+            </div>
+            <div>
+              <dt>Genre</dt>
+              <dd>Stylish action runner</dd>
+            </div>
+            <div>
+              <dt>Current focus</dt>
+              <dd>Warehouse evidence slice</dd>
+            </div>
+            <div>
+              <dt>Contact</dt>
+              <dd><a href="mailto:support@ninjatomonline.com">support@ninjatomonline.com</a></dd>
+            </div>
+          </dl>
+        </article>
+        <article class="press-card media-card">
+          <h3>Media links</h3>
+          <a class="download-link" href="press-kit.zip" download>Download press-kit.zip</a>
+          <a href="screenshots/02-warehouse-evidence.jpg">Warehouse evidence screenshot</a>
+          <a href="screenshots/03-wardrobe-restored.jpg">Wardrobe restored screenshot</a>
+          <a href="screenshots/05-elite-encounter.jpg">Elite encounter screenshot</a>
+          <a href="favicon.svg">NinjaTom site icon</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="support-band" aria-labelledby="support-title">
+      <div>
+        <h2 id="support-title">Support and privacy are ready for launch review.</h2>
+        <p>The public package includes App Store support and privacy-policy pages with the current no-account, no-tracking privacy position.</p>
+      </div>
+      <div class="support-actions">
+        <a class="button" href="support.html">Support</a>
+        <a class="button secondary" href="privacy.html">Privacy</a>
       </div>
     </section>
   </main>
