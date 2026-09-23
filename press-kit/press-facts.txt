@@ -1,31 +1,12 @@
-NinjaTom: Rooftop Rush
-
-One-sentence pitch:
-NinjaTom throws the fit, restocks the style, chases counterfeit evidence, and races to save Memphis from a bad-fashion empire.
-
-Short description:
-NinjaTom: Rooftop Rush is a stylish iPhone action runner where a rooftop vigilante fights counterfeit-fashion crime by weaponizing his own good style.
-
-Campaign idea:
-Style is not cosmetic. Style is the weapon.
-
-Platform:
-iPhone
-
-Genre:
-Stylish action runner
-
-Current public site:
-https://ninjatomonline.github.io/rooftoprush-site/
-
-Support:
-NinjaTomOnline@gmail.com
-
-Included media:
-- screenshots/warehouse-evidence.jpg
-- screenshots/wardrobe-restored.jpg
-- screenshots/elite-encounter.jpg
-- ninjatom-site-icon.svg
-
-Note:
-The final App Store product URL is pending. Replace the pending store slot on the public site with the official Apple badge and real apps.apple.com URL when available.
+Title: NinjaTom: Rooftop Rush
+Publisher: Ninja Tom Apps
+Tagline: Bad fashion. Good style.
+Genre: Action runner / goofy rooftop caper
+Platforms: iPhone and iPad
+Status: Private internal TestFlight beta
+Public release date: Not announced
+Price: Not announced
+Website: https://ninjatomonline.github.io/rooftoprush-site/
+Browser side games: Fedora Flick; Memphis Sniff Squad
+Contact: NinjaTomOnline@gmail.com
+Copyright: 2026 Ninja Tom Apps

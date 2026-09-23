@@ -1,0 +1,24 @@
+{
+  "site": {
+    "title": "NinjaTom: Rooftop Rush",
+    "description": "Bad fashion. Good style. A rooftop caper with NinjaTom and Memphis.",
+    "canonical": "https://ninjatomonline.github.io/rooftoprush-site/",
+    "author": {
+      "name": "Ninja Tom Apps"
+    },
+    "release": {
+      "version": "Website arcade 2026.09",
+      "status": "Private internal TestFlight beta; no public download"
+    },
+    "supportEmail": "NinjaTomOnline@gmail.com",
+    "stores": {},
+    "arcade": {
+      "games": [
+        "arcade/fedora-flick.html",
+        "arcade/sniff-squad.html"
+      ],
+      "storage": "local best scores only",
+      "tracking": false
+    }
+  }
+}
